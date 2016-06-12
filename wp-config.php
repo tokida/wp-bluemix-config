@@ -127,3 +127,8 @@ define('AUTH_SALT',        get_option('auth_salt'));
 define('SECURE_AUTH_SALT', get_option('secure_auth_salt'));
 define('LOGGED_IN_SALT',   get_option('logged_in_salt'));
 define('NONCE_SALT',       get_option('nonce_salt'));
+
+
+/** for change hostname  **/
+define('WP_HOME', 'http://'.$_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'.$_SERVER['HTTP_HOST']);
